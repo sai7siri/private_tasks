@@ -11,7 +11,7 @@ const userRoutes = require("./routes/userRoutes");
 // middlewares
 
  app.use(cors({
-   origin: "http://localhost:5173", 
+   origin: "https://private-tasks-client.onrender.com", 
    credentials: true,
  }))
 
