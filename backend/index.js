@@ -11,7 +11,7 @@ const userRoutes = require("./routes/userRoutes");
 // middlewares
 
  app.use(cors({
-   origin: "https://private-tasks.vercel.app", 
+   origin: 'https://private-tasks-client.vercel.app',
    credentials: true,
  }))
 
